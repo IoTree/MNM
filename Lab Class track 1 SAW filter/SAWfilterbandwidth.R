@@ -36,3 +36,4 @@ y[y< -50] <- NA
 
 #ploting
 plot(f/1000000, y, main="D25", ylab = "(|H(w)|^2)dB-(|H(w0)|^2)dB", xlab = "f[MHz]", type="l")
+grind ()
