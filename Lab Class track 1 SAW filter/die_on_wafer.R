@@ -6,10 +6,10 @@ library("plotrix")
 #input
 wafersize <- 100 #mm
 boundery <- 5 #mm
-diex <- 6.3 #mm
-diey <- 3 #mm
+diex <- 3.9 #mm
+diey <- 2.9 #mm
 accuracy <- 0.1 #mm
-id <- "D21"
+id <- "D25"
 
 #preperation
 wafer_r <- (100 - boundery*2)/2
@@ -95,7 +95,7 @@ summi <- summi - dienum[[2]][[length(dienum[[2]])]]
 totalpoints <- paste(c("included points:", variation[[1]]), collapse = " ")
 xshift <- paste(c("shift in x:", centerpoint[[1]][[variation[[2]]]]), collapse = " ")
 yshift <- paste(c("shift in y:", centerpoint[[1]][[variation[[3]]]]), collapse = " ")
-gooddie <- paste(c("nummer of good dies:", summi), collapse = " ")
+gooddie <- paste(c("number of good dies:", summi), collapse = " ")
 
 
 par(pty="s")
