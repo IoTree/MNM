@@ -10,7 +10,7 @@ library(anytime)
 library(ggplot2)
 options(digits = 15)
 
-folder <- '****' #folder where all csv files are saved.
+folder <- '****' #folder where all csv files are saved. for ex.: "C:/Users/Dummy/folder1/folder2/allfiles"
 folders_len <- nchar(folder)
 files <- list.files(path = folder, pattern = "*.csv", full.names = T)
 
