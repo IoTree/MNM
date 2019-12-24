@@ -16,14 +16,14 @@ y <- c()
 
 # for normalized transfer function
 resultofsum <- sum(((-1)^(n-1))*exp(complex(imag = -((2*pi*f0*(n-1)/(2*f0))))))
-Hw <- (((1/(sqrt(2*pi)))*(resultofsum))^2)*exp(complex(imag = (2*pi*f0*tau)))
+Hw <- (((1/(sqrt(2*pi)))*(resultofsum))^2)*exp(complex(imag = (-2*pi*f0*tau)))
 Hwf0abssquert <- (abs(Hw))^2
 Hwf0dB <- 10*log10(Hwf0abssquert)
 
 # for calc
 for (fm in f) {
   resultofsum <- sum(((-1)^(n-1))*exp(complex(imag = -((2*pi*fm*(n-1)/(2*f0))))))
-  Hw <- (((1/(sqrt(2*pi)))*(resultofsum))^2)*exp(complex(imag = (2*pi*fm*tau)))
+  Hw <- (((1/(sqrt(2*pi)))*(resultofsum))^2)*exp(complex(imag = (-2*pi*fm*tau)))
   Hwabssquert <- (abs(Hw))^2
   HwdB <- 10*log10(Hwabssquert)
   #y <- c(y, (Hwabssquert/Hwf0abssquert))
