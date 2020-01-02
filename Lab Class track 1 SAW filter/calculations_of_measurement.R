@@ -1,3 +1,12 @@
+#NOTE: for a well-functioning program, put all xlsx files in on folder and specific it in the programm. 
+#   Also if data is missing in the xlsx pleas delete this data for this specific design. 
+#   Also define the uncertainties!!!
+
+# use is on own risk
+# comperight @ Sebastian Stadler
+
+
+
 library(readxl)
 library(magrittr)
 library(dplyr)
