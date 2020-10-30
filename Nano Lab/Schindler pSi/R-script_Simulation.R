@@ -139,7 +139,7 @@ png(png_titel, width = 800, height = 600)
 plott11 <- ggplot(Zplot) + 
 #  geom_point(aes(x, y)) +
   geom_line(aes(x, y), size = 1) +
-  ylab("Reflectivity [%]") + xlab("freq [1/s]") +
+  ylab("Reflectivity [%]") + xlab("freq/freq0") +
   theme_light() +
   theme(
     axis.text=element_text(size=14), 
