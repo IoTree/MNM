@@ -6,7 +6,7 @@ library(anytime)
 library(ggplot2)
 library(gridExtra)
 
-folder <- 'C:\\Users\\Gosmo\\OneDrive\\Documents\\Studium-LED-PC\\3. Semseter\\Praktikum Private\\Schindler\\Berechungen\\processed_data_for_calc\\Profilometer' # put your folder desitination hier where all the xlsx from lab class are stored
+folder <- 'C:\\<---- please change accordingly ---->\\processed_data_for_calc\\Profilometer' # put your folder desitination hier where all the xlsx from lab class are stored
 folders_len <- nchar(folder)
 files <- list.files(path = folder, pattern = "*.csv", full.names = T)
 
