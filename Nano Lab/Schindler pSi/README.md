@@ -29,7 +29,8 @@ NOTE: the .xy file was converted to a .csv file.
 ## R-script_Simulation.R
 
 This script simulates a Bragg mirror. But you can also simulate other combinations of layers with different refractive indices. Besides the refractive index and thickness, the angle of incidence is also taken into account.
-A TMM (Transfer Matrix Method with the Fressnell equations) is used to get the reflection.
+A TMM (Transfer Matrix Method with the Fressnel equations) is used to get the reflection.
+Please fill in the needed values for you simulation at the begining of the code
 
 ## All rights reserved 
 Sebastian Stadler 
